@@ -7,11 +7,11 @@ Cerinte de design:
  - fiecare element din lista sa aiba:
     * un border de 1px linie continua si de culoare neagra;
     * colturile retunjite, min 10px;
-    * o distanta intre continutul elementului si border.
+    * o distanta de minim 5px intre continutul elementului si border.
  - sa existe o distanta in partea dreapta a iconitei astfel incat sa se delimiteze de numele orasului
- - numele orasului sa aiba un font de minim 18px
- - iconita si numele orasului sa fie aliniate centru
- - atunci cand faci hover cu mouse-ul peste un element al listei sa se schimbe cursorul in manuta sau orice cursor predefinit doresti
+ - doar numele orasului sa aiba un font de minim 18px
+ - iconita si numele orasului sa fie aliniate la centru
+ - atunci cand faci hover cu mouse-ul peste un element al listei sa se schimbe cursorul in manuta sau orice cursor predefinit doresti, manuta sugeara utilizatorului ca poate da click
 
  Intrebari existentiale, how to:
   - create a list in html
