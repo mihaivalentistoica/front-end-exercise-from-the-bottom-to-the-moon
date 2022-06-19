@@ -1,23 +1,32 @@
-Cerinte: Afisati detalii intr-un `alert` specifice fieacarui oras din lista
+Cerinta:
+  - Afisati detalile meteo a orasului intr-un `alert`
 
 Inainte de a incepe exercitiul creaza un fisiere `script.js` in acelasi folder cu `index.html` si importa acest script
     in fisierul HTML, de obicei tagul de <script> se adauga in body la sfarsitul lui, inainte de tag-ul de inchidere </body>.
 
-- creeam o functie `displayCityDetails`, aceasta are ca parametru `cityName`.
-- in interiorul functiei, mai specific intre acoloade, fa trebuii sa afisam un alert ce contine un text compus dintr-un
+Cerinte de functionalitate:
+
+- Creeam o functie `displayCityDetails`, aceasta are ca parametru `cityName`.
+
+- In interiorul functiei, mai specific intre acoloade, va trebuii sa afisam un alert ce contine un text compus dintr-un
     prefix si numele orasului ex: `You have selected Bucuresti`.
-- pentru a testa functionalitatea va trebuii sa apelam functia (execute function / call function) dupa declarare (mai exact dupa acolada de inchidere),
-    daca nu se parseaza functiei titlul orasului sub forma de string se va afisa `You have selected undefined`.
+
+- Pentru a testa functionalitatea va trebuii sa apelam functia (execute function / call function) dupa declarare (mai exact dupa acolada de inchidere),
+    deschideti fisierul index.html pentru a rula codul creat.
+    Note: daca nu se parseaza functiei titlul orasului sub forma de string se va afisa `You have selected undefined`.
     Note: dupa testare se va sterge apelarea functiei.
-- va trebuii sa apela functia creata din html, acest lucru o sa il facem cu atributul `onclick`, vom apela functia `displayCityDetails`
-    pe fiecare list-item <li> element si ii vom parsa numele orasului aferent.
-- acum vrem sa crestem numarul de parametrii astfel incat sa afisam temperatura si umiditatea, vom adauga inca doi parametrii
+
+- Va trebuii sa apelam functia din html, acest lucru o sa il facem cu `onclick`, vom apela functia `displayCityDetails`
+    pe fiecare list-item (<li> element) si ii vom parsa numele orasului aferent.
+
+- Acum vrem sa crestem numarul de parametrii astfel incat sa afisam temperatura si umiditatea, vom adauga inca doi parametrii
     functiei `displayCityDetails` din script.js, iar acesti doi parametri vor fi adaugat in string-ul alertului astfel sa optinem
     un mesaj pe mai multe randuri.
-- daca nu adaugam si parametrii in apelarea functiei in html ele o sa fie afisate ca `undefine` in `alert`, parametrii
-    pot fi parsati ca string sau ca number.
+
+- Daca nu adaugam si parametrii in apelarea functiei din html ele o sa fie afisate ca `undefine` in `alert`.
 
 Felicitari!
+
 
 Intrebari existentiale:
     - how to add javascript file to html

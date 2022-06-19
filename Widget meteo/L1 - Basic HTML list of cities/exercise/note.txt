@@ -1,0 +1,39 @@
+Cerinta exercitiu:
+
+ - Creati o list de orase in care fiecare element sa contina iconita `./assets/pin.svg` si numele orasului.
+
+Cerinte de design:
+
+ - Iconita sa aiba o latime intre 25 si 40 de px, poti alege si o valoare in afara recomandari dar vizual nu e ok,
+    poti observa incercand diferite valori.
+     *** Ce se intampla daca modific si inaltimea? Oare inaltimea se calculeaza automat doar daca modific latimea? ***
+
+ - Sa existe o distanta in partea de jos intre elementele listei, recomandat 20px
+
+ - Fiecare element din lista sa aiba:
+    * un border de 1px linie continua si de culoare neagra;
+    * colturile retunjite, min 10px;
+    * o distanta de minim 5px intre continutul elementului si border.
+
+ - Sa existe o distanta in partea dreapta a iconitei astfel incat sa se delimiteze de numele orasului
+
+ - Doar numele orasului sa aiba un font de minim 18px
+
+ - Iconita si numele orasului sa fie aliniate la centru
+
+ - Atunci cand faci hover cu mouse-ul peste un element al listei sa se schimbe cursorul in manuta sau
+    orice cursor predefinit doresti, manuta sugeara utilizatorului ca poate da click
+
+
+ Intrebari existentiale:
+  - how to create a list in html
+  - how to import an image from folder html
+  - how to add css classes
+  - how to modify the width in css. Demo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_width
+  - how to add margin bottom css. Demo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_margin-bottom
+  - how to add border in css. Demo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border
+  - add space between border and text in css. Demo: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_padding
+  - add right margin to an element css
+  - change font size css
+  - flexbox align items center
+  - change cursor css
