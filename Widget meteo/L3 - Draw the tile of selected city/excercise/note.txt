@@ -1,0 +1,31 @@
+Cerinta:
+
+    - Detaliile afisate in `alert` din functia `displayCityDetails` vor trebuii afisate si in html.
+
+In acest exercitiu vom manipula dinamic un element HTML, cea ce trebuie noi sa facem este sa creem un `DIV Element` sub
+    lista noastra cu orase. Acestui div ii vom adauga un `id`, vom folosi id-ul pentru a cauta elementul in javascript
+    si sa-i aducem modificari dinamic.
+
+Dupa adaugarea elementului div in HTML vom continua sa adaugam codul in functia `displayCityDetails`.
+
+Cerinte:
+
+    - Cauta elementul div folosind id-ul.
+        *** pentru a testa daca am procedat corect vom folosi un console.log() pentru afisarea elementului in consola
+         browseru-lui, de fiecare data cand dai click pe un oras va aparea in consola, hover it ***
+
+    - Modifica textul div-ului cu mesajul din interiorul alert-ului
+
+    - Modifica stilizarea div-uli in javascript, poti marii fontul, adauga padding, aliniaza textul la mijloc.
+        *** Te poti juca cu culori, umbre, dar aceste modficari sa fie din interiorul functiei `displayCityDetails`. ***
+
+Daca toate cerintele s-au indeplinit sa se stearga alert-ul.
+
+Inrebari existentiale:
+    - how to select html element javascript by id
+    - how to change the content of html in javascript
+    - how to modify style in javascript
+        * how to change font size javascript
+        * how to change padding javascript
+        * how to change text alignment in javascript
+        * ....
